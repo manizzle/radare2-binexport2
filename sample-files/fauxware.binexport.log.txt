@@ -1,0 +1,14 @@
+fauxware: starting export
+Added 35 entry points from function chunks
+Added 0 entry points from calls
+gathering types
+flow analysis
+sorting instructions
+reconstructing flow graphs
+reconstructing functions
+IDA specific post processing
+writing...
+Writing to: "fauxware.BinExport".
+fauxware: 0.01s processing, 0.03s writing
+Added 240 entry points from flow analysis
+fauxware: exported 35 functions with 226 instructions in 0.05s

@@ -1,0 +1,3968 @@
+meta_information {
+    executable_name: "fauxware"
+    executable_id: "5B9B8E4FD2ACBF3DCFDD7383E0646949A7BFEEA7"
+    architecture_name: "x86-64"
+    timestamp: 1466452268
+}
+expression {
+    type: SIZE_PREFIX
+    symbol: "b8"
+}
+expression {
+    type: REGISTER
+    symbol: "rsp"
+    parent_index: 0
+}
+expression {
+    type: SIZE_PREFIX
+    symbol: "b1"
+}
+expression {
+    immediate: 8
+    parent_index: 2
+}
+expression {
+    type: SYMBOL
+    symbol: "__do_global_dtors_aux"
+    immediate: 4195792
+    parent_index: 0
+}
+expression {
+    type: REGISTER
+    symbol: "rbp"
+    parent_index: 0
+}
+expression {
+    type: REGISTER
+    symbol: "rbx"
+    parent_index: 0
+}
+expression {
+    type: OPERATOR
+    symbol: "cs:"
+    parent_index: 2
+}
+expression {
+    type: DEREFERENCE
+    symbol: "["
+    parent_index: 7
+}
+expression {
+    type: SYMBOL
+    symbol: "completed.6531"
+    immediate: 6295632
+    parent_index: 8
+}
+expression {
+    immediate: 0
+    parent_index: 2
+}
+expression {
+    immediate: 4195885
+    parent_index: 0
+}
+expression {
+    type: SIZE_PREFIX
+    symbol: "b4"
+}
+expression {
+    type: REGISTER
+    symbol: "ebx"
+    parent_index: 12
+}
+expression {
+    type: SYMBOL
+    symbol: "__DTOR_END__"
+    immediate: 6295104
+    parent_index: 12
+}
+expression {
+    type: REGISTER
+    symbol: "rax"
+    parent_index: 0
+}
+expression {
+    type: OPERATOR
+    symbol: "cs:"
+    parent_index: 0
+}
+expression {
+    type: DEREFERENCE
+    symbol: "["
+    parent_index: 16
+}
+expression {
+    type: SYMBOL
+    symbol: "dtor_idx.6533"
+    immediate: 6295640
+    parent_index: 17
+}
+expression {
+    type: SYMBOL
+    symbol: "__DTOR_LIST__"
+    immediate: 0
+    parent_index: 12
+}
+expression {
+    immediate: 3
+    parent_index: 2
+}
+expression {
+    immediate: 1
+    parent_index: 2
+}
+expression {
+    immediate: 4195878
+    parent_index: 0
+}
+expression {
+    type: SIZE_PREFIX
+    symbol: "b2"
+}
+expression {
+    type: OPERATOR
+    symbol: "ds:"
+    parent_index: 23
+}
+expression {
+    type: DEREFERENCE
+    symbol: "["
+    parent_index: 24
+}
+expression {
+    type: OPERATOR
+    symbol: "+"
+    parent_index: 25
+}
+expression {
+    type: REGISTER
+    symbol: "rax"
+    parent_index: 26
+}
+expression {
+    type: REGISTER
+    symbol: "rax"
+    parent_index: 26
+}
+expression {
+    immediate: 0
+    parent_index: 26
+}
+expression {
+    type: OPERATOR
+    symbol: "ds:"
+    parent_index: 0
+}
+expression {
+    type: DEREFERENCE
+    symbol: "["
+    parent_index: 30
+}
+expression {
+    type: OPERATOR
+    symbol: "+"
+    parent_index: 31
+}
+expression {
+    type: SYMBOL
+    symbol: "__DTOR_LIST__"
+    immediate: 6295096
+    parent_index: 32
+}
+expression {
+    type: OPERATOR
+    symbol: "*"
+    parent_index: 32
+}
+expression {
+    type: REGISTER
+    symbol: "rax"
+    parent_index: 34
+}
+expression {
+    immediate: 8
+    parent_index: 34
+}
+expression {
+    immediate: 4195848
+    parent_index: 0
+}
+expression {
+    type: SYMBOL
+    symbol: "__CTOR_LIST__"
+    immediate: 6295080
+    parent_index: 17
+}
+expression {
+    immediate: 255
+    parent_index: 2
+}
+expression {
+    immediate: 4196527
+    parent_index: 0
+}
+expression {
+    type: SYMBOL
+    symbol: "__CTOR_LIST__"
+    immediate: 6295080
+    parent_index: 12
+}
+expression {
+    type: OPERATOR
+    symbol: "ds:"
+    parent_index: 12
+}
+expression {
+    type: DEREFERENCE
+    symbol: "["
+    parent_index: 42
+}
+expression {
+    type: OPERATOR
+    symbol: "+"
+    parent_index: 43
+}
+expression {
+    type: REGISTER
+    symbol: "rax"
+    parent_index: 44
+}
+expression {
+    type: REGISTER
+    symbol: "rax"
+    parent_index: 44
+}
+expression {
+    immediate: 0
+    parent_index: 44
+}
+expression {
+    type: REGISTER
+    symbol: "rbx"
+    parent_index: 31
+}
+expression {
+    immediate: 4196512
+    parent_index: 0
+}
+expression {
+    type: OPERATOR
+    symbol: "ss:"
+    parent_index: 0
+}
+expression {
+    type: DEREFERENCE
+    symbol: "["
+    parent_index: 50
+}
+expression {
+    type: OPERATOR
+    symbol: "+"
+    parent_index: 51
+}
+expression {
+    type: REGISTER
+    symbol: "rsp"
+    parent_index: 52
+}
+expression {
+    symbol: "var_28"
+    immediate: 18446744073709551576
+    parent_index: 52
+}
+expression {
+    symbol: "var_20"
+    immediate: 18446744073709551584
+    parent_index: 52
+}
+expression {
+    type: REGISTER
+    symbol: "r12"
+    parent_index: 0
+}
+expression {
+    immediate: 6295076
+    parent_index: 17
+}
+expression {
+    symbol: "var_18"
+    immediate: 18446744073709551592
+    parent_index: 52
+}
+expression {
+    type: REGISTER
+    symbol: "r13"
+    parent_index: 0
+}
+expression {
+    symbol: "var_10"
+    immediate: 18446744073709551600
+    parent_index: 52
+}
+expression {
+    type: REGISTER
+    symbol: "r14"
+    parent_index: 0
+}
+expression {
+    symbol: "var_8"
+    immediate: 18446744073709551608
+    parent_index: 52
+}
+expression {
+    type: REGISTER
+    symbol: "r15"
+    parent_index: 0
+}
+expression {
+    symbol: "var_30"
+    immediate: 18446744073709551568
+    parent_index: 52
+}
+expression {
+    immediate: 56
+    parent_index: 2
+}
+expression {
+    type: REGISTER
+    symbol: "r13d"
+    parent_index: 12
+}
+expression {
+    type: REGISTER
+    symbol: "edi"
+    parent_index: 12
+}
+expression {
+    type: REGISTER
+    symbol: "rsi"
+    parent_index: 0
+}
+expression {
+    type: REGISTER
+    symbol: "rdx"
+    parent_index: 0
+}
+expression {
+    type: SYMBOL
+    symbol: ".init_proc"
+    immediate: 4195552
+    parent_index: 0
+}
+expression {
+    type: SYMBOL
+    symbol: "call_gmon_start"
+    immediate: 4195756
+    parent_index: 0
+}
+expression {
+    immediate: 6295520
+    parent_index: 17
+}
+expression {
+    immediate: 4195774
+    parent_index: 0
+}
+expression {
+    type: SYMBOL
+    symbol: "frame_dummy"
+    immediate: 4195904
+    parent_index: 0
+}
+expression {
+    type: SYMBOL
+    symbol: "__JCR_LIST__"
+    immediate: 6295112
+    parent_index: 17
+}
+expression {
+    immediate: 4195936
+    parent_index: 0
+}
+expression {
+    type: REGISTER
+    symbol: "eax"
+    parent_index: 12
+}
+expression {
+    immediate: 0
+    parent_index: 12
+}
+expression {
+    type: SYMBOL
+    symbol: "__JCR_LIST__"
+    immediate: 6295112
+    parent_index: 12
+}
+expression {
+    type: SYMBOL
+    symbol: "__do_global_ctors_aux"
+    immediate: 4196480
+    parent_index: 0
+}
+expression {
+    immediate: 4196422
+    parent_index: 0
+}
+expression {
+    symbol: "var_30"
+    immediate: 8
+    parent_index: 52
+}
+expression {
+    symbol: "var_28"
+    immediate: 16
+    parent_index: 52
+}
+expression {
+    symbol: "var_20"
+    immediate: 24
+    parent_index: 52
+}
+expression {
+    symbol: "var_18"
+    immediate: 32
+    parent_index: 52
+}
+expression {
+    symbol: "var_10"
+    immediate: 40
+    parent_index: 52
+}
+expression {
+    symbol: "var_8"
+    immediate: 48
+    parent_index: 52
+}
+expression {
+    immediate: 0
+    parent_index: 44
+}
+expression {
+    type: REGISTER
+    symbol: "r12"
+    parent_index: 32
+}
+expression {
+    type: REGISTER
+    symbol: "rbx"
+    parent_index: 34
+}
+expression {
+    immediate: 4196400
+    parent_index: 0
+}
+expression {
+    immediate: 64
+    parent_index: 2
+}
+expression {
+    type: OPERATOR
+    symbol: "ss:"
+    parent_index: 12
+}
+expression {
+    type: DEREFERENCE
+    symbol: "["
+    parent_index: 93
+}
+expression {
+    type: OPERATOR
+    symbol: "+"
+    parent_index: 94
+}
+expression {
+    type: REGISTER
+    symbol: "rbp"
+    parent_index: 95
+}
+expression {
+    symbol: "var_34"
+    immediate: 18446744073709551564
+    parent_index: 95
+}
+expression {
+    type: REGISTER
+    symbol: "rbp"
+    parent_index: 52
+}
+expression {
+    symbol: "var_40"
+    immediate: 18446744073709551552
+    parent_index: 52
+}
+expression {
+    type: OPERATOR
+    symbol: "ss:"
+    parent_index: 2
+}
+expression {
+    type: DEREFERENCE
+    symbol: "["
+    parent_index: 100
+}
+expression {
+    type: OPERATOR
+    symbol: "+"
+    parent_index: 101
+}
+expression {
+    type: REGISTER
+    symbol: "rbp"
+    parent_index: 102
+}
+expression {
+    symbol: "var_8"
+    immediate: 18446744073709551608
+    parent_index: 102
+}
+expression {
+    symbol: "var_18"
+    immediate: 18446744073709551592
+    parent_index: 102
+}
+expression {
+    immediate: 4196629
+    parent_index: 12
+}
+expression {
+    type: SYMBOL
+    symbol: ".puts"
+    immediate: 4195600
+    parent_index: 0
+}
+expression {
+    immediate: 6295552
+    parent_index: 17
+}
+expression {
+    symbol: "buf"
+    immediate: 18446744073709551600
+    parent_index: 52
+}
+expression {
+    type: REGISTER
+    symbol: "edx"
+    parent_index: 12
+}
+expression {
+    immediate: 8
+    parent_index: 12
+}
+expression {
+    type: SYMBOL
+    symbol: ".read"
+    immediate: 4195632
+    parent_index: 0
+}
+expression {
+    immediate: 6295568
+    parent_index: 17
+}
+expression {
+    symbol: "var_24"
+    immediate: 18446744073709551580
+    parent_index: 52
+}
+expression {
+    immediate: 1
+    parent_index: 12
+}
+expression {
+    immediate: 4196640
+    parent_index: 12
+}
+expression {
+    type: REGISTER
+    symbol: "rdi"
+    parent_index: 0
+}
+expression {
+    type: SYMBOL
+    symbol: "authenticate"
+    immediate: 4195940
+    parent_index: 0
+}
+expression {
+    immediate: 32
+    parent_index: 2
+}
+expression {
+    symbol: "file"
+    immediate: 18446744073709551592
+    parent_index: 52
+}
+expression {
+    symbol: "s1"
+    immediate: 18446744073709551584
+    parent_index: 52
+}
+expression {
+    type: SYMBOL
+    symbol: "sneaky"
+    immediate: 6295624
+    parent_index: 17
+}
+expression {
+    type: SYMBOL
+    symbol: ".strcmp"
+    immediate: 4195664
+    parent_index: 0
+}
+expression {
+    immediate: 6295584
+    parent_index: 17
+}
+expression {
+    immediate: 4195993
+    parent_index: 0
+}
+expression {
+    type: REGISTER
+    symbol: "esi"
+    parent_index: 12
+}
+expression {
+    type: SYMBOL
+    symbol: ".open"
+    immediate: 4195680
+    parent_index: 0
+}
+expression {
+    immediate: 6295592
+    parent_index: 17
+}
+expression {
+    symbol: "fd"
+    immediate: 18446744073709551612
+    parent_index: 95
+}
+expression {
+    type: REGISTER
+    symbol: "rcx"
+    parent_index: 0
+}
+expression {
+    immediate: 4196070
+    parent_index: 0
+}
+expression {
+    immediate: 4196075
+    parent_index: 0
+}
+expression {
+    symbol: "var_24"
+    immediate: 18446744073709551580
+    parent_index: 95
+}
+expression {
+    immediate: 4196297
+    parent_index: 0
+}
+expression {
+    type: SYMBOL
+    symbol: "rejected"
+    immediate: 4196093
+    parent_index: 0
+}
+expression {
+    immediate: 4196620
+    parent_index: 12
+}
+expression {
+    type: SYMBOL
+    symbol: ".printf"
+    immediate: 4195616
+    parent_index: 0
+}
+expression {
+    immediate: 6295560
+    parent_index: 17
+}
+expression {
+    type: SYMBOL
+    symbol: ".exit"
+    immediate: 4195696
+    parent_index: 0
+}
+expression {
+    immediate: 6295600
+    parent_index: 17
+}
+expression {
+    type: SYMBOL
+    symbol: "accepted"
+    immediate: 4196077
+    parent_index: 0
+}
+expression {
+    immediate: 4196576
+    parent_index: 12
+}
+expression {
+    immediate: 4196307
+    parent_index: 0
+}
+expression {
+    type: REGISTER
+    symbol: "ebp"
+    parent_index: 12
+}
+expression {
+    type: REGISTER
+    symbol: "r9"
+    parent_index: 0
+}
+expression {
+    immediate: 240
+    parent_index: 2
+}
+expression {
+    type: REGISTER
+    symbol: "r8"
+    parent_index: 0
+}
+expression {
+    type: SYMBOL
+    symbol: "__libc_csu_fini"
+    immediate: 0
+    parent_index: 12
+}
+expression {
+    type: SYMBOL
+    symbol: "__libc_csu_init"
+    immediate: 0
+    parent_index: 12
+}
+expression {
+    type: SYMBOL
+    symbol: "main"
+    immediate: 0
+    parent_index: 12
+}
+expression {
+    type: SYMBOL
+    symbol: ".__libc_start_main"
+    immediate: 4195648
+    parent_index: 0
+}
+expression {
+    immediate: 6295576
+    parent_index: 17
+}
+operand {
+    expression_index: 0
+    expression_index: 1
+}
+operand {
+    expression_index: 2
+    expression_index: 3
+}
+operand {
+    expression_index: 0
+    expression_index: 4
+}
+operand {
+    expression_index: 0
+    expression_index: 5
+}
+operand {
+    expression_index: 0
+    expression_index: 6
+}
+operand {
+    expression_index: 2
+    expression_index: 7
+    expression_index: 8
+    expression_index: 9
+}
+operand {
+    expression_index: 2
+    expression_index: 10
+}
+operand {
+    expression_index: 0
+    expression_index: 11
+}
+operand {
+    expression_index: 12
+    expression_index: 13
+}
+operand {
+    expression_index: 12
+    expression_index: 14
+}
+operand {
+    expression_index: 0
+    expression_index: 15
+}
+operand {
+    expression_index: 0
+    expression_index: 16
+    expression_index: 17
+    expression_index: 18
+}
+operand {
+    expression_index: 12
+    expression_index: 19
+}
+operand {
+    expression_index: 2
+    expression_index: 20
+}
+operand {
+    expression_index: 2
+    expression_index: 21
+}
+operand {
+    expression_index: 0
+    expression_index: 22
+}
+operand {
+    expression_index: 23
+    expression_index: 24
+    expression_index: 25
+    expression_index: 26
+    expression_index: 27
+    expression_index: 28
+    expression_index: 29
+}
+operand {
+    expression_index: 0
+    expression_index: 30
+    expression_index: 31
+    expression_index: 32
+    expression_index: 33
+    expression_index: 34
+    expression_index: 35
+    expression_index: 36
+}
+operand {
+    expression_index: 0
+    expression_index: 37
+}
+operand {
+    expression_index: 0
+    expression_index: 16
+    expression_index: 17
+    expression_index: 38
+}
+operand {
+    expression_index: 2
+    expression_index: 39
+}
+operand {
+    expression_index: 0
+    expression_index: 40
+}
+operand {
+    expression_index: 12
+    expression_index: 41
+}
+operand {
+    expression_index: 12
+    expression_index: 42
+    expression_index: 43
+    expression_index: 44
+    expression_index: 45
+    expression_index: 46
+    expression_index: 47
+}
+operand {
+    expression_index: 0
+    expression_index: 30
+    expression_index: 31
+    expression_index: 48
+}
+operand {
+    expression_index: 0
+    expression_index: 49
+}
+operand {
+    expression_index: 0
+    expression_index: 50
+    expression_index: 51
+    expression_index: 52
+    expression_index: 53
+    expression_index: 54
+}
+operand {
+    expression_index: 0
+    expression_index: 50
+    expression_index: 51
+    expression_index: 52
+    expression_index: 53
+    expression_index: 55
+}
+operand {
+    expression_index: 0
+    expression_index: 56
+}
+operand {
+    expression_index: 0
+    expression_index: 16
+    expression_index: 17
+    expression_index: 57
+}
+operand {
+    expression_index: 0
+    expression_index: 50
+    expression_index: 51
+    expression_index: 52
+    expression_index: 53
+    expression_index: 58
+}
+operand {
+    expression_index: 0
+    expression_index: 59
+}
+operand {
+    expression_index: 0
+    expression_index: 50
+    expression_index: 51
+    expression_index: 52
+    expression_index: 53
+    expression_index: 60
+}
+operand {
+    expression_index: 0
+    expression_index: 61
+}
+operand {
+    expression_index: 0
+    expression_index: 50
+    expression_index: 51
+    expression_index: 52
+    expression_index: 53
+    expression_index: 62
+}
+operand {
+    expression_index: 0
+    expression_index: 63
+}
+operand {
+    expression_index: 0
+    expression_index: 50
+    expression_index: 51
+    expression_index: 52
+    expression_index: 53
+    expression_index: 64
+}
+operand {
+    expression_index: 2
+    expression_index: 65
+}
+operand {
+    expression_index: 12
+    expression_index: 66
+}
+operand {
+    expression_index: 12
+    expression_index: 67
+}
+operand {
+    expression_index: 0
+    expression_index: 68
+}
+operand {
+    expression_index: 0
+    expression_index: 69
+}
+operand {
+    expression_index: 0
+    expression_index: 70
+}
+operand {
+    expression_index: 0
+    expression_index: 71
+}
+operand {
+    expression_index: 0
+    expression_index: 16
+    expression_index: 17
+    expression_index: 72
+}
+operand {
+    expression_index: 0
+    expression_index: 73
+}
+operand {
+    expression_index: 0
+    expression_index: 74
+}
+operand {
+    expression_index: 0
+    expression_index: 16
+    expression_index: 17
+    expression_index: 75
+}
+operand {
+    expression_index: 0
+    expression_index: 76
+}
+operand {
+    expression_index: 12
+    expression_index: 77
+}
+operand {
+    expression_index: 12
+    expression_index: 78
+}
+operand {
+    expression_index: 12
+    expression_index: 79
+}
+operand {
+    expression_index: 0
+    expression_index: 80
+}
+operand {
+    expression_index: 0
+    expression_index: 81
+}
+operand {
+    expression_index: 0
+    expression_index: 50
+    expression_index: 51
+    expression_index: 52
+    expression_index: 53
+    expression_index: 82
+}
+operand {
+    expression_index: 0
+    expression_index: 50
+    expression_index: 51
+    expression_index: 52
+    expression_index: 53
+    expression_index: 83
+}
+operand {
+    expression_index: 0
+    expression_index: 50
+    expression_index: 51
+    expression_index: 52
+    expression_index: 53
+    expression_index: 84
+}
+operand {
+    expression_index: 0
+    expression_index: 50
+    expression_index: 51
+    expression_index: 52
+    expression_index: 53
+    expression_index: 85
+}
+operand {
+    expression_index: 0
+    expression_index: 50
+    expression_index: 51
+    expression_index: 52
+    expression_index: 53
+    expression_index: 86
+}
+operand {
+    expression_index: 0
+    expression_index: 50
+    expression_index: 51
+    expression_index: 52
+    expression_index: 53
+    expression_index: 87
+}
+operand {
+    expression_index: 12
+    expression_index: 42
+    expression_index: 43
+    expression_index: 44
+    expression_index: 45
+    expression_index: 88
+}
+operand {
+    expression_index: 0
+    expression_index: 30
+    expression_index: 31
+    expression_index: 32
+    expression_index: 89
+    expression_index: 34
+    expression_index: 90
+    expression_index: 36
+}
+operand {
+    expression_index: 0
+    expression_index: 91
+}
+operand {
+    expression_index: 2
+    expression_index: 92
+}
+operand {
+    expression_index: 12
+    expression_index: 93
+    expression_index: 94
+    expression_index: 95
+    expression_index: 96
+    expression_index: 97
+}
+operand {
+    expression_index: 0
+    expression_index: 50
+    expression_index: 51
+    expression_index: 52
+    expression_index: 98
+    expression_index: 99
+}
+operand {
+    expression_index: 2
+    expression_index: 100
+    expression_index: 101
+    expression_index: 102
+    expression_index: 103
+    expression_index: 104
+}
+operand {
+    expression_index: 2
+    expression_index: 100
+    expression_index: 101
+    expression_index: 102
+    expression_index: 103
+    expression_index: 105
+}
+operand {
+    expression_index: 12
+    expression_index: 106
+}
+operand {
+    expression_index: 0
+    expression_index: 107
+}
+operand {
+    expression_index: 0
+    expression_index: 16
+    expression_index: 17
+    expression_index: 108
+}
+operand {
+    expression_index: 0
+    expression_index: 50
+    expression_index: 51
+    expression_index: 52
+    expression_index: 98
+    expression_index: 109
+}
+operand {
+    expression_index: 12
+    expression_index: 110
+}
+operand {
+    expression_index: 12
+    expression_index: 111
+}
+operand {
+    expression_index: 0
+    expression_index: 112
+}
+operand {
+    expression_index: 0
+    expression_index: 16
+    expression_index: 17
+    expression_index: 113
+}
+operand {
+    expression_index: 0
+    expression_index: 50
+    expression_index: 51
+    expression_index: 52
+    expression_index: 98
+    expression_index: 114
+}
+operand {
+    expression_index: 12
+    expression_index: 115
+}
+operand {
+    expression_index: 12
+    expression_index: 116
+}
+operand {
+    expression_index: 0
+    expression_index: 50
+    expression_index: 51
+    expression_index: 52
+    expression_index: 98
+    expression_index: 55
+}
+operand {
+    expression_index: 0
+    expression_index: 117
+}
+operand {
+    expression_index: 0
+    expression_index: 118
+}
+operand {
+    expression_index: 2
+    expression_index: 119
+}
+operand {
+    expression_index: 0
+    expression_index: 50
+    expression_index: 51
+    expression_index: 52
+    expression_index: 98
+    expression_index: 120
+}
+operand {
+    expression_index: 0
+    expression_index: 50
+    expression_index: 51
+    expression_index: 52
+    expression_index: 98
+    expression_index: 121
+}
+operand {
+    expression_index: 0
+    expression_index: 16
+    expression_index: 17
+    expression_index: 122
+}
+operand {
+    expression_index: 0
+    expression_index: 123
+}
+operand {
+    expression_index: 0
+    expression_index: 16
+    expression_index: 17
+    expression_index: 124
+}
+operand {
+    expression_index: 0
+    expression_index: 125
+}
+operand {
+    expression_index: 12
+    expression_index: 126
+}
+operand {
+    expression_index: 0
+    expression_index: 127
+}
+operand {
+    expression_index: 0
+    expression_index: 16
+    expression_index: 17
+    expression_index: 128
+}
+operand {
+    expression_index: 12
+    expression_index: 93
+    expression_index: 94
+    expression_index: 95
+    expression_index: 96
+    expression_index: 129
+}
+operand {
+    expression_index: 0
+    expression_index: 130
+}
+operand {
+    expression_index: 0
+    expression_index: 131
+}
+operand {
+    expression_index: 0
+    expression_index: 132
+}
+operand {
+    expression_index: 12
+    expression_index: 93
+    expression_index: 94
+    expression_index: 95
+    expression_index: 96
+    expression_index: 133
+}
+operand {
+    expression_index: 0
+    expression_index: 134
+}
+operand {
+    expression_index: 0
+    expression_index: 135
+}
+operand {
+    expression_index: 12
+    expression_index: 136
+}
+operand {
+    expression_index: 0
+    expression_index: 137
+}
+operand {
+    expression_index: 0
+    expression_index: 16
+    expression_index: 17
+    expression_index: 138
+}
+operand {
+    expression_index: 0
+    expression_index: 139
+}
+operand {
+    expression_index: 0
+    expression_index: 16
+    expression_index: 17
+    expression_index: 140
+}
+operand {
+    expression_index: 0
+    expression_index: 141
+}
+operand {
+    expression_index: 12
+    expression_index: 142
+}
+operand {
+    expression_index: 0
+    expression_index: 143
+}
+operand {
+    expression_index: 12
+    expression_index: 144
+}
+operand {
+    expression_index: 0
+    expression_index: 145
+}
+operand {
+    expression_index: 2
+    expression_index: 146
+}
+operand {
+    expression_index: 0
+    expression_index: 147
+}
+operand {
+    expression_index: 12
+    expression_index: 148
+}
+operand {
+    expression_index: 12
+    expression_index: 149
+}
+operand {
+    expression_index: 12
+    expression_index: 150
+}
+operand {
+    expression_index: 0
+    expression_index: 151
+}
+operand {
+    expression_index: 0
+    expression_index: 16
+    expression_index: 17
+    expression_index: 152
+}
+mnemonic {
+    name: "mov"
+}
+mnemonic {
+    name: "call"
+}
+mnemonic {
+    name: "sub"
+}
+mnemonic {
+    name: "jmp"
+}
+mnemonic {
+    name: "push"
+}
+mnemonic {
+    name: "lea"
+}
+mnemonic {
+    name: "retn"
+}
+mnemonic {
+    name: "add"
+}
+mnemonic {
+    name: "pop"
+}
+mnemonic {
+    name: "cmp"
+}
+mnemonic {
+    name: "jz"
+}
+mnemonic {
+    name: "test"
+}
+mnemonic {
+    name: "jnz"
+}
+mnemonic {
+    name: "nop"
+}
+mnemonic {
+    name: "leave"
+}
+mnemonic {
+    name: "sar"
+}
+mnemonic {
+    name: "xor"
+}
+mnemonic {
+    name: "and"
+}
+mnemonic {
+    name: "hlt"
+}
+mnemonic {
+    name: "jb"
+}
+mnemonic {
+    name: "jnb"
+}
+mnemonic {
+    name: "rep retn"
+}
+instruction {
+    address: 4195552
+    mnemonic_index: 2
+    operand_index: 0
+    operand_index: 1
+    raw_bytes: "H\203\354\010"
+}
+instruction {
+    call_target: 4195756
+    mnemonic_index: 1
+    operand_index: 43
+    raw_bytes: "\350\303\000\000\000"
+}
+instruction {
+    call_target: 4195904
+    mnemonic_index: 1
+    operand_index: 46
+    raw_bytes: "\350R\001\000\000"
+}
+instruction {
+    call_target: 4196480
+    mnemonic_index: 1
+    operand_index: 52
+    raw_bytes: "\350\215\003\000\000"
+}
+instruction {
+    mnemonic_index: 7
+    operand_index: 0
+    operand_index: 1
+    raw_bytes: "H\203\304\010"
+}
+instruction {
+    mnemonic_index: 6
+    raw_bytes: "\303"
+}
+instruction {
+    address: 4195600
+    mnemonic_index: 3
+    operand_index: 70
+    raw_bytes: "\377%\352\n \000"
+}
+instruction {
+    address: 4195616
+    mnemonic_index: 3
+    operand_index: 101
+    raw_bytes: "\377%\342\n \000"
+}
+instruction {
+    address: 4195632
+    mnemonic_index: 3
+    operand_index: 75
+    raw_bytes: "\377%\332\n \000"
+}
+instruction {
+    address: 4195648
+    mnemonic_index: 3
+    operand_index: 115
+    raw_bytes: "\377%\322\n \000"
+}
+instruction {
+    address: 4195664
+    mnemonic_index: 3
+    operand_index: 87
+    raw_bytes: "\377%\312\n \000"
+}
+instruction {
+    address: 4195680
+    mnemonic_index: 3
+    operand_index: 91
+    raw_bytes: "\377%\302\n \000"
+}
+instruction {
+    address: 4195696
+    mnemonic_index: 3
+    operand_index: 103
+    raw_bytes: "\377%\272\n \000"
+}
+instruction {
+    address: 4195712
+    mnemonic_index: 16
+    operand_index: 107
+    operand_index: 107
+    raw_bytes: "1\355"
+}
+instruction {
+    operand_index: 108
+    operand_index: 41
+    raw_bytes: "I\211\321"
+}
+instruction {
+    mnemonic_index: 8
+    operand_index: 40
+    raw_bytes: "^"
+}
+instruction {
+    operand_index: 41
+    operand_index: 0
+    raw_bytes: "H\211\342"
+}
+instruction {
+    mnemonic_index: 17
+    operand_index: 0
+    operand_index: 109
+    raw_bytes: "H\203\344\360"
+}
+instruction {
+    mnemonic_index: 4
+    operand_index: 10
+    raw_bytes: "P"
+}
+instruction {
+    mnemonic_index: 4
+    operand_index: 0
+    raw_bytes: "T"
+}
+instruction {
+    operand_index: 110
+    operand_index: 111
+    raw_bytes: "I\307\300p\010@\000"
+}
+instruction {
+    operand_index: 93
+    operand_index: 112
+    raw_bytes: "H\307\301\340\007@\000"
+}
+instruction {
+    operand_index: 80
+    operand_index: 113
+    raw_bytes: "H\307\307\035\007@\000"
+}
+instruction {
+    call_target: 4195648
+    mnemonic_index: 1
+    operand_index: 114
+    raw_bytes: "\350\227\377\377\377"
+}
+instruction {
+    mnemonic_index: 18
+    raw_bytes: "\364"
+}
+instruction {
+    address: 4195756
+    mnemonic_index: 2
+    operand_index: 0
+    operand_index: 1
+    raw_bytes: "H\203\354\010"
+}
+instruction {
+    operand_index: 10
+    operand_index: 44
+    raw_bytes: "H\213\005)\n \000"
+}
+instruction {
+    mnemonic_index: 11
+    operand_index: 10
+    operand_index: 10
+    raw_bytes: "H\205\300"
+}
+instruction {
+    mnemonic_index: 10
+    operand_index: 45
+    raw_bytes: "t\002"
+}
+instruction {
+    call_target: 6295704
+    mnemonic_index: 1
+    operand_index: 10
+    raw_bytes: "\377\320"
+}
+instruction {
+    mnemonic_index: 7
+    operand_index: 0
+    operand_index: 1
+    raw_bytes: "H\203\304\010"
+}
+instruction {
+    mnemonic_index: 6
+    raw_bytes: "\303"
+}
+instruction {
+    address: 4195792
+    mnemonic_index: 4
+    operand_index: 3
+    raw_bytes: "U"
+}
+instruction {
+    operand_index: 3
+    operand_index: 0
+    raw_bytes: "H\211\345"
+}
+instruction {
+    mnemonic_index: 4
+    operand_index: 4
+    raw_bytes: "S"
+}
+instruction {
+    mnemonic_index: 2
+    operand_index: 0
+    operand_index: 1
+    raw_bytes: "H\203\354\010"
+}
+instruction {
+    mnemonic_index: 9
+    operand_index: 5
+    operand_index: 6
+    raw_bytes: "\200=p\n \000\000"
+}
+instruction {
+    mnemonic_index: 12
+    operand_index: 7
+    raw_bytes: "uK"
+}
+instruction {
+    operand_index: 8
+    operand_index: 9
+    raw_bytes: "\273@\016`\000"
+}
+instruction {
+    operand_index: 10
+    operand_index: 11
+    raw_bytes: "H\213\005j\n \000"
+}
+instruction {
+    mnemonic_index: 2
+    operand_index: 4
+    operand_index: 12
+    raw_bytes: "H\201\3538\016`\000"
+}
+instruction {
+    mnemonic_index: 15
+    operand_index: 4
+    operand_index: 13
+    raw_bytes: "H\301\373\003"
+}
+instruction {
+    mnemonic_index: 2
+    operand_index: 4
+    operand_index: 14
+    raw_bytes: "H\203\353\001"
+}
+instruction {
+    mnemonic_index: 9
+    operand_index: 10
+    operand_index: 4
+    raw_bytes: "H9\330"
+}
+instruction {
+    mnemonic_index: 20
+    operand_index: 15
+    raw_bytes: "s$"
+}
+instruction {
+    mnemonic_index: 13
+    operand_index: 16
+    raw_bytes: "f\017\037D\000\000"
+}
+instruction {
+    mnemonic_index: 7
+    operand_index: 10
+    operand_index: 14
+    raw_bytes: "H\203\300\001"
+}
+instruction {
+    operand_index: 11
+    operand_index: 10
+    raw_bytes: "H\211\005E\n \000"
+}
+instruction {
+    call_target: 6295096
+    mnemonic_index: 1
+    operand_index: 17
+    raw_bytes: "\377\024\3058\016`\000"
+}
+instruction {
+    operand_index: 10
+    operand_index: 11
+    raw_bytes: "H\213\0057\n \000"
+}
+instruction {
+    mnemonic_index: 9
+    operand_index: 10
+    operand_index: 4
+    raw_bytes: "H9\330"
+}
+instruction {
+    mnemonic_index: 19
+    operand_index: 18
+    raw_bytes: "r\342"
+}
+instruction {
+    operand_index: 5
+    operand_index: 14
+    raw_bytes: "\306\005#\n \000\001"
+}
+instruction {
+    mnemonic_index: 7
+    operand_index: 0
+    operand_index: 1
+    raw_bytes: "H\203\304\010"
+}
+instruction {
+    mnemonic_index: 8
+    operand_index: 4
+    raw_bytes: "["
+}
+instruction {
+    mnemonic_index: 8
+    operand_index: 3
+    raw_bytes: "]"
+}
+instruction {
+    mnemonic_index: 6
+    raw_bytes: "\303"
+}
+instruction {
+    address: 4195904
+    mnemonic_index: 9
+    operand_index: 47
+    operand_index: 6
+    raw_bytes: "H\203=\000\010 \000\000"
+}
+instruction {
+    mnemonic_index: 4
+    operand_index: 3
+    raw_bytes: "U"
+}
+instruction {
+    operand_index: 3
+    operand_index: 0
+    raw_bytes: "H\211\345"
+}
+instruction {
+    mnemonic_index: 10
+    operand_index: 48
+    raw_bytes: "t\022"
+}
+instruction {
+    operand_index: 49
+    operand_index: 50
+    raw_bytes: "\270\000\000\000\000"
+}
+instruction {
+    mnemonic_index: 11
+    operand_index: 10
+    operand_index: 10
+    raw_bytes: "H\205\300"
+}
+instruction {
+    mnemonic_index: 10
+    operand_index: 48
+    raw_bytes: "t\010"
+}
+instruction {
+    mnemonic_index: 8
+    operand_index: 3
+    raw_bytes: "]"
+}
+instruction {
+    operand_index: 39
+    operand_index: 51
+    raw_bytes: "\277H\016`\000"
+}
+instruction {
+    mnemonic_index: 3
+    operand_index: 10
+    raw_bytes: "\377\340"
+}
+instruction {
+    address: 4195936
+    mnemonic_index: 8
+    operand_index: 3
+    raw_bytes: "]"
+}
+instruction {
+    mnemonic_index: 6
+    raw_bytes: "\303"
+}
+instruction {
+    address: 4195940
+    mnemonic_index: 4
+    operand_index: 3
+    raw_bytes: "U"
+}
+instruction {
+    operand_index: 3
+    operand_index: 0
+    raw_bytes: "H\211\345"
+}
+instruction {
+    mnemonic_index: 2
+    operand_index: 0
+    operand_index: 82
+    raw_bytes: "H\203\354 "
+}
+instruction {
+    operand_index: 83
+    operand_index: 80
+    raw_bytes: "H\211}\350"
+}
+instruction {
+    operand_index: 84
+    operand_index: 40
+    raw_bytes: "H\211u\340"
+}
+instruction {
+    operand_index: 66
+    operand_index: 6
+    raw_bytes: "\306E\370\000"
+}
+instruction {
+    operand_index: 41
+    operand_index: 85
+    raw_bytes: "H\213\025\311\t \000"
+}
+instruction {
+    operand_index: 10
+    operand_index: 84
+    raw_bytes: "H\213E\340"
+}
+instruction {
+    operand_index: 40
+    operand_index: 41
+    raw_bytes: "H\211\326"
+}
+instruction {
+    operand_index: 80
+    operand_index: 10
+    raw_bytes: "H\211\307"
+}
+instruction {
+    call_target: 4195664
+    mnemonic_index: 1
+    operand_index: 86
+    raw_bytes: "\350\302\376\377\377"
+}
+instruction {
+    mnemonic_index: 11
+    operand_index: 49
+    operand_index: 49
+    raw_bytes: "\205\300"
+}
+instruction {
+    mnemonic_index: 12
+    operand_index: 88
+    raw_bytes: "u\007"
+}
+instruction {
+    operand_index: 49
+    operand_index: 77
+    raw_bytes: "\270\001\000\000\000"
+}
+instruction {
+    mnemonic_index: 3
+    operand_index: 95
+    raw_bytes: "\353R"
+}
+instruction {
+    address: 4195993
+    operand_index: 10
+    operand_index: 83
+    raw_bytes: "H\213E\350"
+}
+instruction {
+    operand_index: 89
+    operand_index: 50
+    raw_bytes: "\276\000\000\000\000"
+}
+instruction {
+    operand_index: 80
+    operand_index: 10
+    raw_bytes: "H\211\307"
+}
+instruction {
+    operand_index: 49
+    operand_index: 50
+    raw_bytes: "\270\000\000\000\000"
+}
+instruction {
+    call_target: 4195680
+    mnemonic_index: 1
+    operand_index: 90
+    raw_bytes: "\350\261\376\377\377"
+}
+instruction {
+    operand_index: 92
+    operand_index: 49
+    raw_bytes: "\211E\374"
+}
+instruction {
+    mnemonic_index: 5
+    operand_index: 93
+    operand_index: 71
+    raw_bytes: "H\215M\360"
+}
+instruction {
+    operand_index: 49
+    operand_index: 92
+    raw_bytes: "\213E\374"
+}
+instruction {
+    operand_index: 72
+    operand_index: 73
+    raw_bytes: "\272\010\000\000\000"
+}
+instruction {
+    operand_index: 40
+    operand_index: 93
+    raw_bytes: "H\211\316"
+}
+instruction {
+    operand_index: 39
+    operand_index: 49
+    raw_bytes: "\211\307"
+}
+instruction {
+    call_target: 4195632
+    mnemonic_index: 1
+    operand_index: 74
+    raw_bytes: "\350h\376\377\377"
+}
+instruction {
+    mnemonic_index: 5
+    operand_index: 41
+    operand_index: 71
+    raw_bytes: "H\215U\360"
+}
+instruction {
+    operand_index: 10
+    operand_index: 84
+    raw_bytes: "H\213E\340"
+}
+instruction {
+    operand_index: 40
+    operand_index: 41
+    raw_bytes: "H\211\326"
+}
+instruction {
+    operand_index: 80
+    operand_index: 10
+    raw_bytes: "H\211\307"
+}
+instruction {
+    call_target: 4195664
+    mnemonic_index: 1
+    operand_index: 86
+    raw_bytes: "\350u\376\377\377"
+}
+instruction {
+    mnemonic_index: 11
+    operand_index: 49
+    operand_index: 49
+    raw_bytes: "\205\300"
+}
+instruction {
+    mnemonic_index: 12
+    operand_index: 94
+    raw_bytes: "u\007"
+}
+instruction {
+    operand_index: 49
+    operand_index: 77
+    raw_bytes: "\270\001\000\000\000"
+}
+instruction {
+    mnemonic_index: 3
+    operand_index: 95
+    raw_bytes: "\353\005"
+}
+instruction {
+    address: 4196070
+    operand_index: 49
+    operand_index: 50
+    raw_bytes: "\270\000\000\000\000"
+}
+instruction {
+    mnemonic_index: 14
+    raw_bytes: "\311"
+}
+instruction {
+    mnemonic_index: 6
+    raw_bytes: "\303"
+}
+instruction {
+    address: 4196077
+    mnemonic_index: 4
+    operand_index: 3
+    raw_bytes: "U"
+}
+instruction {
+    operand_index: 3
+    operand_index: 0
+    raw_bytes: "H\211\345"
+}
+instruction {
+    operand_index: 39
+    operand_index: 105
+    raw_bytes: "\277\340\010@\000"
+}
+instruction {
+    call_target: 4195600
+    mnemonic_index: 1
+    operand_index: 69
+    raw_bytes: "\350\025\376\377\377"
+}
+instruction {
+    mnemonic_index: 8
+    operand_index: 3
+    raw_bytes: "]"
+}
+instruction {
+    mnemonic_index: 6
+    raw_bytes: "\303"
+}
+instruction {
+    address: 4196093
+    mnemonic_index: 4
+    operand_index: 3
+    raw_bytes: "U"
+}
+instruction {
+    operand_index: 3
+    operand_index: 0
+    raw_bytes: "H\211\345"
+}
+instruction {
+    operand_index: 49
+    operand_index: 99
+    raw_bytes: "\270\014\t@\000"
+}
+instruction {
+    operand_index: 80
+    operand_index: 10
+    raw_bytes: "H\211\307"
+}
+instruction {
+    operand_index: 49
+    operand_index: 50
+    raw_bytes: "\270\000\000\000\000"
+}
+instruction {
+    call_target: 4195616
+    mnemonic_index: 1
+    operand_index: 100
+    raw_bytes: "\350\r\376\377\377"
+}
+instruction {
+    operand_index: 39
+    operand_index: 77
+    raw_bytes: "\277\001\000\000\000"
+}
+instruction {
+    call_target: 4195696
+    mnemonic_index: 1
+    operand_index: 102
+    raw_bytes: "\350S\376\377\377"
+}
+instruction {
+    address: 4196125
+    mnemonic_index: 4
+    operand_index: 3
+    raw_bytes: "U"
+}
+instruction {
+    operand_index: 3
+    operand_index: 0
+    raw_bytes: "H\211\345"
+}
+instruction {
+    mnemonic_index: 2
+    operand_index: 0
+    operand_index: 63
+    raw_bytes: "H\203\354@"
+}
+instruction {
+    operand_index: 64
+    operand_index: 39
+    raw_bytes: "\211}\314"
+}
+instruction {
+    operand_index: 65
+    operand_index: 40
+    raw_bytes: "H\211u\300"
+}
+instruction {
+    operand_index: 66
+    operand_index: 6
+    raw_bytes: "\306E\370\000"
+}
+instruction {
+    operand_index: 67
+    operand_index: 6
+    raw_bytes: "\306E\350\000"
+}
+instruction {
+    operand_index: 39
+    operand_index: 68
+    raw_bytes: "\277\025\t@\000"
+}
+instruction {
+    call_target: 4195600
+    mnemonic_index: 1
+    operand_index: 69
+    raw_bytes: "\350\322\375\377\377"
+}
+instruction {
+    mnemonic_index: 5
+    operand_index: 10
+    operand_index: 71
+    raw_bytes: "H\215E\360"
+}
+instruction {
+    operand_index: 72
+    operand_index: 73
+    raw_bytes: "\272\010\000\000\000"
+}
+instruction {
+    operand_index: 40
+    operand_index: 10
+    raw_bytes: "H\211\306"
+}
+instruction {
+    operand_index: 39
+    operand_index: 50
+    raw_bytes: "\277\000\000\000\000"
+}
+instruction {
+    call_target: 4195632
+    mnemonic_index: 1
+    operand_index: 74
+    raw_bytes: "\350\334\375\377\377"
+}
+instruction {
+    mnemonic_index: 5
+    operand_index: 10
+    operand_index: 76
+    raw_bytes: "H\215E\334"
+}
+instruction {
+    operand_index: 72
+    operand_index: 77
+    raw_bytes: "\272\001\000\000\000"
+}
+instruction {
+    operand_index: 40
+    operand_index: 10
+    raw_bytes: "H\211\306"
+}
+instruction {
+    operand_index: 39
+    operand_index: 50
+    raw_bytes: "\277\000\000\000\000"
+}
+instruction {
+    call_target: 4195632
+    mnemonic_index: 1
+    operand_index: 74
+    raw_bytes: "\350\306\375\377\377"
+}
+instruction {
+    operand_index: 39
+    operand_index: 78
+    raw_bytes: "\277 \t@\000"
+}
+instruction {
+    call_target: 4195600
+    mnemonic_index: 1
+    operand_index: 69
+    raw_bytes: "\350\234\375\377\377"
+}
+instruction {
+    mnemonic_index: 5
+    operand_index: 10
+    operand_index: 79
+    raw_bytes: "H\215E\340"
+}
+instruction {
+    operand_index: 72
+    operand_index: 73
+    raw_bytes: "\272\010\000\000\000"
+}
+instruction {
+    operand_index: 40
+    operand_index: 10
+    raw_bytes: "H\211\306"
+}
+instruction {
+    operand_index: 39
+    operand_index: 50
+    raw_bytes: "\277\000\000\000\000"
+}
+instruction {
+    call_target: 4195632
+    mnemonic_index: 1
+    operand_index: 74
+    raw_bytes: "\350\246\375\377\377"
+}
+instruction {
+    mnemonic_index: 5
+    operand_index: 10
+    operand_index: 76
+    raw_bytes: "H\215E\334"
+}
+instruction {
+    operand_index: 72
+    operand_index: 77
+    raw_bytes: "\272\001\000\000\000"
+}
+instruction {
+    operand_index: 40
+    operand_index: 10
+    raw_bytes: "H\211\306"
+}
+instruction {
+    operand_index: 39
+    operand_index: 50
+    raw_bytes: "\277\000\000\000\000"
+}
+instruction {
+    call_target: 4195632
+    mnemonic_index: 1
+    operand_index: 74
+    raw_bytes: "\350\220\375\377\377"
+}
+instruction {
+    mnemonic_index: 5
+    operand_index: 41
+    operand_index: 79
+    raw_bytes: "H\215U\340"
+}
+instruction {
+    mnemonic_index: 5
+    operand_index: 10
+    operand_index: 71
+    raw_bytes: "H\215E\360"
+}
+instruction {
+    operand_index: 40
+    operand_index: 41
+    raw_bytes: "H\211\326"
+}
+instruction {
+    operand_index: 80
+    operand_index: 10
+    raw_bytes: "H\211\307"
+}
+instruction {
+    call_target: 4195940
+    mnemonic_index: 1
+    operand_index: 81
+    raw_bytes: "\350\261\376\377\377"
+}
+instruction {
+    operand_index: 96
+    operand_index: 49
+    raw_bytes: "\211E\334"
+}
+instruction {
+    operand_index: 49
+    operand_index: 96
+    raw_bytes: "\213E\334"
+}
+instruction {
+    mnemonic_index: 11
+    operand_index: 49
+    operand_index: 49
+    raw_bytes: "\205\300"
+}
+instruction {
+    mnemonic_index: 10
+    operand_index: 97
+    raw_bytes: "t\014"
+}
+instruction {
+    operand_index: 49
+    operand_index: 50
+    raw_bytes: "\270\000\000\000\000"
+}
+instruction {
+    call_target: 4196077
+    mnemonic_index: 1
+    operand_index: 104
+    raw_bytes: "\350&\377\377\377"
+}
+instruction {
+    mnemonic_index: 3
+    operand_index: 106
+    raw_bytes: "\353\n"
+}
+instruction {
+    address: 4196297
+    operand_index: 49
+    operand_index: 50
+    raw_bytes: "\270\000\000\000\000"
+}
+instruction {
+    call_target: 4196093
+    mnemonic_index: 1
+    operand_index: 98
+    raw_bytes: "\350*\377\377\377"
+}
+instruction {
+    address: 4196307
+    mnemonic_index: 14
+    raw_bytes: "\311"
+}
+instruction {
+    mnemonic_index: 6
+    raw_bytes: "\303"
+}
+instruction {
+    address: 4196320
+    operand_index: 26
+    operand_index: 3
+    raw_bytes: "H\211l$\330"
+}
+instruction {
+    operand_index: 27
+    operand_index: 28
+    raw_bytes: "L\211d$\340"
+}
+instruction {
+    mnemonic_index: 5
+    operand_index: 3
+    operand_index: 29
+    raw_bytes: "H\215-3\006 \000"
+}
+instruction {
+    mnemonic_index: 5
+    operand_index: 28
+    operand_index: 29
+    raw_bytes: "L\215%,\006 \000"
+}
+instruction {
+    operand_index: 30
+    operand_index: 31
+    raw_bytes: "L\211l$\350"
+}
+instruction {
+    operand_index: 32
+    operand_index: 33
+    raw_bytes: "L\211t$\360"
+}
+instruction {
+    operand_index: 34
+    operand_index: 35
+    raw_bytes: "L\211|$\370"
+}
+instruction {
+    operand_index: 36
+    operand_index: 4
+    raw_bytes: "H\211\\$\320"
+}
+instruction {
+    mnemonic_index: 2
+    operand_index: 0
+    operand_index: 37
+    raw_bytes: "H\203\3548"
+}
+instruction {
+    mnemonic_index: 2
+    operand_index: 3
+    operand_index: 28
+    raw_bytes: "L)\345"
+}
+instruction {
+    operand_index: 38
+    operand_index: 39
+    raw_bytes: "A\211\375"
+}
+instruction {
+    operand_index: 33
+    operand_index: 40
+    raw_bytes: "I\211\366"
+}
+instruction {
+    mnemonic_index: 15
+    operand_index: 3
+    operand_index: 13
+    raw_bytes: "H\301\375\003"
+}
+instruction {
+    operand_index: 35
+    operand_index: 41
+    raw_bytes: "I\211\327"
+}
+instruction {
+    call_target: 4195552
+    mnemonic_index: 1
+    operand_index: 42
+    raw_bytes: "\350\273\374\377\377"
+}
+instruction {
+    mnemonic_index: 11
+    operand_index: 3
+    operand_index: 3
+    raw_bytes: "H\205\355"
+}
+instruction {
+    mnemonic_index: 10
+    operand_index: 53
+    raw_bytes: "t\034"
+}
+instruction {
+    mnemonic_index: 16
+    operand_index: 8
+    operand_index: 8
+    raw_bytes: "1\333"
+}
+instruction {
+    mnemonic_index: 13
+    operand_index: 60
+    raw_bytes: "\017\037@\000"
+}
+instruction {
+    operand_index: 41
+    operand_index: 35
+    raw_bytes: "L\211\372"
+}
+instruction {
+    operand_index: 40
+    operand_index: 33
+    raw_bytes: "L\211\366"
+}
+instruction {
+    operand_index: 39
+    operand_index: 38
+    raw_bytes: "D\211\357"
+}
+instruction {
+    mnemonic_index: 1
+    operand_index: 61
+    raw_bytes: "A\377\024\334"
+}
+instruction {
+    mnemonic_index: 7
+    operand_index: 4
+    operand_index: 14
+    raw_bytes: "H\203\303\001"
+}
+instruction {
+    mnemonic_index: 9
+    operand_index: 4
+    operand_index: 3
+    raw_bytes: "H9\353"
+}
+instruction {
+    mnemonic_index: 12
+    operand_index: 62
+    raw_bytes: "u\352"
+}
+instruction {
+    operand_index: 4
+    operand_index: 54
+    raw_bytes: "H\213\\$\010"
+}
+instruction {
+    operand_index: 3
+    operand_index: 55
+    raw_bytes: "H\213l$\020"
+}
+instruction {
+    operand_index: 28
+    operand_index: 56
+    raw_bytes: "L\213d$\030"
+}
+instruction {
+    operand_index: 31
+    operand_index: 57
+    raw_bytes: "L\213l$ "
+}
+instruction {
+    operand_index: 33
+    operand_index: 58
+    raw_bytes: "L\213t$("
+}
+instruction {
+    operand_index: 35
+    operand_index: 59
+    raw_bytes: "L\213|$0"
+}
+instruction {
+    mnemonic_index: 7
+    operand_index: 0
+    operand_index: 37
+    raw_bytes: "H\203\3048"
+}
+instruction {
+    mnemonic_index: 6
+    raw_bytes: "\303"
+}
+instruction {
+    address: 4196464
+    mnemonic_index: 21
+    raw_bytes: "\363\303"
+}
+instruction {
+    address: 4196480
+    mnemonic_index: 4
+    operand_index: 3
+    raw_bytes: "U"
+}
+instruction {
+    operand_index: 3
+    operand_index: 0
+    raw_bytes: "H\211\345"
+}
+instruction {
+    mnemonic_index: 4
+    operand_index: 4
+    raw_bytes: "S"
+}
+instruction {
+    mnemonic_index: 2
+    operand_index: 0
+    operand_index: 1
+    raw_bytes: "H\203\354\010"
+}
+instruction {
+    operand_index: 10
+    operand_index: 19
+    raw_bytes: "H\213\005\230\005 \000"
+}
+instruction {
+    mnemonic_index: 9
+    operand_index: 10
+    operand_index: 20
+    raw_bytes: "H\203\370\377"
+}
+instruction {
+    mnemonic_index: 10
+    operand_index: 21
+    raw_bytes: "t\031"
+}
+instruction {
+    operand_index: 8
+    operand_index: 22
+    raw_bytes: "\273(\016`\000"
+}
+instruction {
+    mnemonic_index: 13
+    operand_index: 23
+    raw_bytes: "\017\037D\000\000"
+}
+instruction {
+    mnemonic_index: 2
+    operand_index: 4
+    operand_index: 1
+    raw_bytes: "H\203\353\010"
+}
+instruction {
+    mnemonic_index: 1
+    operand_index: 10
+    raw_bytes: "\377\320"
+}
+instruction {
+    operand_index: 10
+    operand_index: 24
+    raw_bytes: "H\213\003"
+}
+instruction {
+    mnemonic_index: 9
+    operand_index: 10
+    operand_index: 20
+    raw_bytes: "H\203\370\377"
+}
+instruction {
+    mnemonic_index: 12
+    operand_index: 25
+    raw_bytes: "u\361"
+}
+instruction {
+    mnemonic_index: 7
+    operand_index: 0
+    operand_index: 1
+    raw_bytes: "H\203\304\010"
+}
+instruction {
+    mnemonic_index: 8
+    operand_index: 4
+    raw_bytes: "["
+}
+instruction {
+    mnemonic_index: 8
+    operand_index: 3
+    raw_bytes: "]"
+}
+instruction {
+    mnemonic_index: 6
+    raw_bytes: "\303"
+}
+instruction {
+    address: 4196536
+    mnemonic_index: 2
+    operand_index: 0
+    operand_index: 1
+    raw_bytes: "H\203\354\010"
+}
+instruction {
+    call_target: 4195792
+    mnemonic_index: 1
+    operand_index: 2
+    raw_bytes: "\350\017\375\377\377"
+}
+instruction {
+    mnemonic_index: 7
+    operand_index: 0
+    operand_index: 1
+    raw_bytes: "H\203\304\010"
+}
+instruction {
+    mnemonic_index: 6
+    raw_bytes: "\303"
+}
+basic_block {
+    instruction_index {
+    begin_index: 0
+    end_index: 6
+}
+}
+basic_block {
+    instruction_index {
+    begin_index: 6
+}
+}
+basic_block {
+    instruction_index {
+    begin_index: 7
+}
+}
+basic_block {
+    instruction_index {
+    begin_index: 8
+}
+}
+basic_block {
+    instruction_index {
+    begin_index: 9
+}
+}
+basic_block {
+    instruction_index {
+    begin_index: 10
+}
+}
+basic_block {
+    instruction_index {
+    begin_index: 11
+}
+}
+basic_block {
+    instruction_index {
+    begin_index: 12
+}
+}
+basic_block {
+    instruction_index {
+    begin_index: 13
+    end_index: 25
+}
+}
+basic_block {
+    instruction_index {
+    begin_index: 25
+    end_index: 29
+}
+}
+basic_block {
+    instruction_index {
+    begin_index: 29
+}
+}
+basic_block {
+    instruction_index {
+    begin_index: 30
+    end_index: 32
+}
+}
+basic_block {
+    instruction_index {
+    begin_index: 32
+    end_index: 38
+}
+}
+basic_block {
+    instruction_index {
+    begin_index: 38
+    end_index: 45
+}
+}
+basic_block {
+    instruction_index {
+    begin_index: 45
+}
+}
+basic_block {
+    instruction_index {
+    begin_index: 46
+    end_index: 52
+}
+}
+basic_block {
+    instruction_index {
+    begin_index: 52
+}
+}
+basic_block {
+    instruction_index {
+    begin_index: 53
+    end_index: 57
+}
+}
+basic_block {
+    instruction_index {
+    begin_index: 57
+    end_index: 61
+}
+}
+basic_block {
+    instruction_index {
+    begin_index: 61
+    end_index: 64
+}
+}
+basic_block {
+    instruction_index {
+    begin_index: 64
+    end_index: 67
+}
+}
+basic_block {
+    instruction_index {
+    begin_index: 67
+    end_index: 69
+}
+}
+basic_block {
+    instruction_index {
+    begin_index: 69
+    end_index: 82
+}
+}
+basic_block {
+    instruction_index {
+    begin_index: 82
+    end_index: 84
+}
+}
+basic_block {
+    instruction_index {
+    begin_index: 84
+    end_index: 103
+}
+}
+basic_block {
+    instruction_index {
+    begin_index: 103
+    end_index: 105
+}
+}
+basic_block {
+    instruction_index {
+    begin_index: 105
+}
+}
+basic_block {
+    instruction_index {
+    begin_index: 106
+    end_index: 108
+}
+}
+basic_block {
+    instruction_index {
+    begin_index: 108
+    end_index: 114
+}
+}
+basic_block {
+    instruction_index {
+    begin_index: 114
+    end_index: 122
+}
+}
+basic_block {
+    instruction_index {
+    begin_index: 122
+    end_index: 162
+}
+}
+basic_block {
+    instruction_index {
+    begin_index: 162
+    end_index: 165
+}
+instruction_index {
+    begin_index: 167
+    end_index: 169
+}
+}
+basic_block {
+    instruction_index {
+    begin_index: 165
+    end_index: 167
+}
+}
+basic_block {
+    instruction_index {
+    begin_index: 169
+    end_index: 186
+}
+}
+basic_block {
+    instruction_index {
+    begin_index: 186
+    end_index: 188
+}
+}
+basic_block {
+    instruction_index {
+    begin_index: 188
+    end_index: 195
+}
+}
+basic_block {
+    instruction_index {
+    begin_index: 195
+    end_index: 203
+}
+}
+basic_block {
+    instruction_index {
+    begin_index: 203
+}
+}
+basic_block {
+    instruction_index {
+    begin_index: 204
+    end_index: 211
+}
+}
+basic_block {
+    instruction_index {
+    begin_index: 211
+    end_index: 213
+}
+}
+basic_block {
+    instruction_index {
+    begin_index: 213
+    end_index: 218
+}
+}
+basic_block {
+    instruction_index {
+    begin_index: 218
+    end_index: 222
+}
+}
+basic_block {
+    instruction_index {
+    begin_index: 222
+    end_index: 226
+}
+}
+flow_graph {
+    basic_block_index: 0
+    entry_basic_block_index: 0
+}
+flow_graph {
+    basic_block_index: 1
+    entry_basic_block_index: 1
+}
+flow_graph {
+    basic_block_index: 2
+    entry_basic_block_index: 2
+}
+flow_graph {
+    basic_block_index: 3
+    entry_basic_block_index: 3
+}
+flow_graph {
+    basic_block_index: 4
+    entry_basic_block_index: 4
+}
+flow_graph {
+    basic_block_index: 5
+    entry_basic_block_index: 5
+}
+flow_graph {
+    basic_block_index: 6
+    entry_basic_block_index: 6
+}
+flow_graph {
+    basic_block_index: 7
+    entry_basic_block_index: 7
+}
+flow_graph {
+    basic_block_index: 8
+    entry_basic_block_index: 8
+}
+flow_graph {
+    basic_block_index: 9
+    basic_block_index: 10
+    basic_block_index: 11
+    edge {
+        source_basic_block_index: 9
+        target_basic_block_index: 10
+        type: CONDITION_FALSE
+    }
+    edge {
+        source_basic_block_index: 9
+        target_basic_block_index: 11
+        type: CONDITION_TRUE
+    }
+    edge {
+        source_basic_block_index: 10
+        target_basic_block_index: 11
+    }
+    entry_basic_block_index: 9
+}
+flow_graph {
+    basic_block_index: 12
+    basic_block_index: 13
+    basic_block_index: 14
+    basic_block_index: 15
+    basic_block_index: 16
+    basic_block_index: 17
+    edge {
+        source_basic_block_index: 12
+        target_basic_block_index: 13
+        type: CONDITION_FALSE
+    }
+    edge {
+        source_basic_block_index: 12
+        target_basic_block_index: 17
+        type: CONDITION_TRUE
+    }
+    edge {
+        source_basic_block_index: 13
+        target_basic_block_index: 14
+        type: CONDITION_FALSE
+    }
+    edge {
+        source_basic_block_index: 13
+        target_basic_block_index: 16
+        type: CONDITION_TRUE
+    }
+    edge {
+        source_basic_block_index: 14
+        target_basic_block_index: 15
+    }
+    edge {
+        source_basic_block_index: 15
+        target_basic_block_index: 15
+        type: CONDITION_TRUE
+        is_back_edge: true
+    }
+    edge {
+        source_basic_block_index: 15
+        target_basic_block_index: 16
+        type: CONDITION_FALSE
+    }
+    edge {
+        source_basic_block_index: 16
+        target_basic_block_index: 17
+    }
+    entry_basic_block_index: 12
+}
+flow_graph {
+    basic_block_index: 18
+    basic_block_index: 19
+    basic_block_index: 20
+    basic_block_index: 21
+    edge {
+        source_basic_block_index: 18
+        target_basic_block_index: 19
+        type: CONDITION_FALSE
+    }
+    edge {
+        source_basic_block_index: 18
+        target_basic_block_index: 21
+        type: CONDITION_TRUE
+    }
+    edge {
+        source_basic_block_index: 19
+        target_basic_block_index: 20
+        type: CONDITION_FALSE
+    }
+    edge {
+        source_basic_block_index: 19
+        target_basic_block_index: 21
+        type: CONDITION_TRUE
+    }
+    entry_basic_block_index: 18
+}
+flow_graph {
+    basic_block_index: 22
+    basic_block_index: 23
+    basic_block_index: 24
+    basic_block_index: 25
+    basic_block_index: 26
+    basic_block_index: 27
+    edge {
+        source_basic_block_index: 22
+        target_basic_block_index: 23
+        type: CONDITION_FALSE
+    }
+    edge {
+        source_basic_block_index: 22
+        target_basic_block_index: 24
+        type: CONDITION_TRUE
+    }
+    edge {
+        source_basic_block_index: 23
+        target_basic_block_index: 27
+    }
+    edge {
+        source_basic_block_index: 24
+        target_basic_block_index: 25
+        type: CONDITION_FALSE
+    }
+    edge {
+        source_basic_block_index: 24
+        target_basic_block_index: 26
+        type: CONDITION_TRUE
+    }
+    edge {
+        source_basic_block_index: 25
+        target_basic_block_index: 27
+    }
+    edge {
+        source_basic_block_index: 26
+        target_basic_block_index: 27
+    }
+    entry_basic_block_index: 22
+}
+flow_graph {
+    basic_block_index: 28
+    entry_basic_block_index: 28
+}
+flow_graph {
+    basic_block_index: 29
+    entry_basic_block_index: 29
+}
+flow_graph {
+    basic_block_index: 30
+    basic_block_index: 31
+    basic_block_index: 32
+    edge {
+        source_basic_block_index: 30
+        target_basic_block_index: 31
+        type: CONDITION_FALSE
+    }
+    edge {
+        source_basic_block_index: 30
+        target_basic_block_index: 32
+        type: CONDITION_TRUE
+    }
+    entry_basic_block_index: 30
+}
+flow_graph {
+    basic_block_index: 33
+    basic_block_index: 34
+    basic_block_index: 35
+    basic_block_index: 36
+    edge {
+        source_basic_block_index: 33
+        target_basic_block_index: 34
+        type: CONDITION_FALSE
+    }
+    edge {
+        source_basic_block_index: 33
+        target_basic_block_index: 36
+        type: CONDITION_TRUE
+    }
+    edge {
+        source_basic_block_index: 34
+        target_basic_block_index: 35
+    }
+    edge {
+        source_basic_block_index: 35
+        target_basic_block_index: 35
+        type: CONDITION_TRUE
+        is_back_edge: true
+    }
+    edge {
+        source_basic_block_index: 35
+        target_basic_block_index: 36
+        type: CONDITION_FALSE
+    }
+    entry_basic_block_index: 33
+}
+flow_graph {
+    basic_block_index: 37
+    entry_basic_block_index: 37
+}
+flow_graph {
+    basic_block_index: 38
+    basic_block_index: 39
+    basic_block_index: 40
+    basic_block_index: 41
+    edge {
+        source_basic_block_index: 38
+        target_basic_block_index: 39
+        type: CONDITION_FALSE
+    }
+    edge {
+        source_basic_block_index: 38
+        target_basic_block_index: 41
+        type: CONDITION_TRUE
+    }
+    edge {
+        source_basic_block_index: 39
+        target_basic_block_index: 40
+    }
+    edge {
+        source_basic_block_index: 40
+        target_basic_block_index: 40
+        type: CONDITION_TRUE
+        is_back_edge: true
+    }
+    edge {
+        source_basic_block_index: 40
+        target_basic_block_index: 41
+        type: CONDITION_FALSE
+    }
+    entry_basic_block_index: 38
+}
+flow_graph {
+    basic_block_index: 42
+    entry_basic_block_index: 42
+}
+call_graph {
+    vertex {
+    address: 4195552
+    mangled_name: ".init_proc"
+    demangled_name: "_init_proc"
+}
+vertex {
+    address: 4195600
+    type: THUNK
+    mangled_name: ".puts"
+    demangled_name: "_puts"
+}
+vertex {
+    address: 4195616
+    type: THUNK
+    mangled_name: ".printf"
+    demangled_name: "_printf"
+}
+vertex {
+    address: 4195632
+    type: THUNK
+    mangled_name: ".read"
+    demangled_name: "_read"
+}
+vertex {
+    address: 4195648
+    type: THUNK
+    mangled_name: ".__libc_start_main"
+    demangled_name: "___libc_start_main"
+}
+vertex {
+    address: 4195664
+    type: THUNK
+    mangled_name: ".strcmp"
+    demangled_name: "_strcmp"
+}
+vertex {
+    address: 4195680
+    type: THUNK
+    mangled_name: ".open"
+    demangled_name: "_open"
+}
+vertex {
+    address: 4195696
+    type: THUNK
+    mangled_name: ".exit"
+    demangled_name: "_exit"
+}
+vertex {
+    address: 4195712
+    mangled_name: "_start"
+}
+vertex {
+    address: 4195756
+    mangled_name: "call_gmon_start"
+}
+vertex {
+    address: 4195792
+    mangled_name: "__do_global_dtors_aux"
+}
+vertex {
+    address: 4195904
+    mangled_name: "frame_dummy"
+}
+vertex {
+    address: 4195940
+    mangled_name: "authenticate"
+}
+vertex {
+    address: 4196077
+    mangled_name: "accepted"
+}
+vertex {
+    address: 4196093
+    mangled_name: "rejected"
+}
+vertex {
+    address: 4196125
+    mangled_name: "main"
+}
+vertex {
+    address: 4196320
+    mangled_name: "__libc_csu_init"
+}
+vertex {
+    address: 4196464
+    mangled_name: "__libc_csu_fini"
+}
+vertex {
+    address: 4196480
+    mangled_name: "__do_global_ctors_aux"
+}
+vertex {
+    address: 4196536
+    mangled_name: ".term_proc"
+    demangled_name: "_term_proc"
+}
+vertex {
+    address: 6295648
+    type: IMPORTED
+    mangled_name: "puts@@GLIBC_2.2.5"
+    demangled_name: "puts@@GLIBC_2_2_5"
+}
+vertex {
+    address: 6295652
+    type: IMPORTED
+    mangled_name: "printf@@GLIBC_2.2.5"
+    demangled_name: "printf@@GLIBC_2_2_5"
+}
+vertex {
+    address: 6295656
+    type: IMPORTED
+    mangled_name: "read@@GLIBC_2.2.5"
+    demangled_name: "read@@GLIBC_2_2_5"
+}
+vertex {
+    address: 6295660
+    type: IMPORTED
+    mangled_name: "__libc_start_main@@GLIBC_2.2.5"
+    demangled_name: "__libc_start_main@@GLIBC_2_2_5"
+}
+vertex {
+    address: 6295664
+    type: IMPORTED
+    mangled_name: "strcmp@@GLIBC_2.2.5"
+    demangled_name: "strcmp@@GLIBC_2_2_5"
+}
+vertex {
+    address: 6295668
+    type: IMPORTED
+    mangled_name: "open@@GLIBC_2.2.5"
+    demangled_name: "open@@GLIBC_2_2_5"
+}
+vertex {
+    address: 6295672
+    type: IMPORTED
+    mangled_name: "exit@@GLIBC_2.2.5"
+    demangled_name: "exit@@GLIBC_2_2_5"
+}
+vertex {
+    address: 6295676
+    type: IMPORTED
+    mangled_name: "puts"
+}
+vertex {
+    address: 6295680
+    type: IMPORTED
+    mangled_name: "printf"
+}
+vertex {
+    address: 6295684
+    type: IMPORTED
+    mangled_name: "read"
+}
+vertex {
+    address: 6295688
+    type: IMPORTED
+    mangled_name: "__libc_start_main"
+}
+vertex {
+    address: 6295692
+    type: IMPORTED
+    mangled_name: "strcmp"
+}
+vertex {
+    address: 6295696
+    type: IMPORTED
+    mangled_name: "open"
+}
+vertex {
+    address: 6295700
+    type: IMPORTED
+    mangled_name: "exit"
+}
+vertex {
+    address: 6295704
+    type: IMPORTED
+    mangled_name: "__gmon_start__"
+}
+edge {
+    source_vertex_index: 0
+    target_vertex_index: 9
+}
+edge {
+    source_vertex_index: 0
+    target_vertex_index: 11
+}
+edge {
+    source_vertex_index: 0
+    target_vertex_index: 18
+}
+edge {
+    source_vertex_index: 8
+    target_vertex_index: 4
+}
+edge {
+    source_vertex_index: 9
+    target_vertex_index: 34
+}
+edge {
+    source_vertex_index: 12
+    target_vertex_index: 5
+}
+edge {
+    source_vertex_index: 12
+    target_vertex_index: 6
+}
+edge {
+    source_vertex_index: 12
+    target_vertex_index: 3
+}
+edge {
+    source_vertex_index: 12
+    target_vertex_index: 5
+}
+edge {
+    source_vertex_index: 13
+    target_vertex_index: 1
+}
+edge {
+    source_vertex_index: 14
+    target_vertex_index: 2
+}
+edge {
+    source_vertex_index: 14
+    target_vertex_index: 7
+}
+edge {
+    source_vertex_index: 15
+    target_vertex_index: 1
+}
+edge {
+    source_vertex_index: 15
+    target_vertex_index: 3
+}
+edge {
+    source_vertex_index: 15
+    target_vertex_index: 3
+}
+edge {
+    source_vertex_index: 15
+    target_vertex_index: 1
+}
+edge {
+    source_vertex_index: 15
+    target_vertex_index: 3
+}
+edge {
+    source_vertex_index: 15
+    target_vertex_index: 3
+}
+edge {
+    source_vertex_index: 15
+    target_vertex_index: 12
+}
+edge {
+    source_vertex_index: 15
+    target_vertex_index: 13
+}
+edge {
+    source_vertex_index: 15
+    target_vertex_index: 14
+}
+edge {
+    source_vertex_index: 16
+    target_vertex_index: 0
+}
+edge {
+    source_vertex_index: 19
+    target_vertex_index: 10
+}
+}
+string_table: "_init"
+string_table: "; File Name   : C:\\Users\\Dave\\IdeaProjects\\radare2-binexport2\\sample-files\\fauxware\n; Format      : ELF64 for x86-64 (Executable)\n; Imagebase   : 400000\n; Interpreter \'/lib64/ld-linux-x86-64.so.2\'\n; Needed Library \'libc.so.6\'\n; \n; Source File : \'crtstuff.c\'\n; Source File : \'fauxware.c\'"
+string_table: ".init_proc"
+string_table: ".puts"
+string_table: "off_601000"
+string_table: ".printf"
+string_table: "off_601008"
+string_table: ".read"
+string_table: "off_601010"
+string_table: ".__libc_start_main"
+string_table: "off_601018"
+string_table: ".strcmp"
+string_table: "off_601020"
+string_table: ".open"
+string_table: "off_601028"
+string_table: ".exit"
+string_table: "off_601030"
+string_table: "_start"
+string_table: "rtld_fini"
+string_table: "argc"
+string_table: "ubp_av"
+string_table: "stack_end"
+string_table: "fini"
+string_table: "__libc_csu_fini"
+string_table: "init"
+string_table: "__libc_csu_init"
+string_table: "main"
+string_table: "call_gmon_start"
+string_table: "__gmon_start___ptr"
+string_table: "__do_global_dtors_aux"
+string_table: "completed.6531"
+string_table: "__DTOR_END__"
+string_table: "dtor_idx.6533"
+string_table: "__DTOR_LIST__"
+string_table: "frame_dummy"
+string_table: "__JCR_LIST__"
+string_table: "authenticate"
+string_table: "sneaky"
+string_table: "s2"
+string_table: "s1"
+string_table: "oflag"
+string_table: "file"
+string_table: "nbytes"
+string_table: "buf"
+string_table: "fd"
+string_table: "accepted"
+string_table: "s"
+string_table: "rejected"
+string_table: "format"
+string_table: "status"
+string_table: "aUsername"
+string_table: "aPassword"
+string_table: "__do_global_ctors_aux"
+string_table: "__CTOR_LIST__"
+string_table: "_fini"
+string_table: ".term_proc"
+address_comment {
+    instruction_index: 0
+    string_table_index: 0
+}
+address_comment {
+    instruction_index: 0
+    string_table_index: 1
+}
+address_comment {
+    instruction_index: 0
+    string_table_index: 2
+}
+address_comment {
+    instruction_index: 6
+    string_table_index: 3
+}
+address_comment {
+    instruction_index: 6
+    string_table_index: 4
+}
+address_comment {
+    instruction_index: 7
+    string_table_index: 5
+}
+address_comment {
+    instruction_index: 7
+    string_table_index: 6
+}
+address_comment {
+    instruction_index: 8
+    string_table_index: 7
+}
+address_comment {
+    instruction_index: 8
+    string_table_index: 8
+}
+address_comment {
+    instruction_index: 9
+    string_table_index: 9
+}
+address_comment {
+    instruction_index: 9
+    string_table_index: 10
+}
+address_comment {
+    instruction_index: 10
+    string_table_index: 11
+}
+address_comment {
+    instruction_index: 10
+    string_table_index: 12
+}
+address_comment {
+    instruction_index: 11
+    string_table_index: 13
+}
+address_comment {
+    instruction_index: 11
+    string_table_index: 14
+}
+address_comment {
+    instruction_index: 12
+    string_table_index: 15
+}
+address_comment {
+    instruction_index: 12
+    string_table_index: 16
+}
+address_comment {
+    instruction_index: 13
+    string_table_index: 17
+}
+address_comment {
+    instruction_index: 14
+    string_table_index: 18
+}
+address_comment {
+    instruction_index: 15
+    string_table_index: 19
+}
+address_comment {
+    instruction_index: 16
+    string_table_index: 20
+}
+address_comment {
+    instruction_index: 19
+    string_table_index: 21
+}
+address_comment {
+    instruction_index: 20
+    string_table_index: 22
+}
+address_comment {
+    instruction_index: 20
+    string_table_index: 23
+}
+address_comment {
+    instruction_index: 21
+    string_table_index: 24
+}
+address_comment {
+    instruction_index: 21
+    string_table_index: 25
+}
+address_comment {
+    instruction_index: 22
+    string_table_index: 26
+}
+address_comment {
+    instruction_index: 22
+    string_table_index: 26
+}
+address_comment {
+    instruction_index: 25
+    string_table_index: 27
+}
+address_comment {
+    instruction_index: 26
+    string_table_index: 28
+}
+address_comment {
+    instruction_index: 32
+    string_table_index: 29
+}
+address_comment {
+    instruction_index: 36
+    string_table_index: 30
+}
+address_comment {
+    instruction_index: 38
+    string_table_index: 31
+}
+address_comment {
+    instruction_index: 39
+    string_table_index: 32
+}
+address_comment {
+    instruction_index: 40
+    string_table_index: 33
+}
+address_comment {
+    instruction_index: 47
+    string_table_index: 32
+}
+address_comment {
+    instruction_index: 48
+    string_table_index: 33
+}
+address_comment {
+    instruction_index: 49
+    string_table_index: 32
+}
+address_comment {
+    instruction_index: 57
+    string_table_index: 34
+}
+address_comment {
+    instruction_index: 57
+    string_table_index: 35
+}
+address_comment {
+    instruction_index: 65
+    string_table_index: 35
+}
+address_comment {
+    instruction_index: 69
+    string_table_index: 36
+}
+address_comment {
+    instruction_index: 75
+    string_table_index: 37
+}
+address_comment {
+    instruction_index: 77
+    string_table_index: 38
+}
+address_comment {
+    instruction_index: 78
+    string_table_index: 39
+}
+address_comment {
+    instruction_index: 85
+    string_table_index: 40
+}
+address_comment {
+    instruction_index: 86
+    string_table_index: 41
+}
+address_comment {
+    instruction_index: 92
+    string_table_index: 42
+}
+address_comment {
+    instruction_index: 93
+    string_table_index: 43
+}
+address_comment {
+    instruction_index: 94
+    string_table_index: 44
+}
+address_comment {
+    instruction_index: 98
+    string_table_index: 38
+}
+address_comment {
+    instruction_index: 99
+    string_table_index: 39
+}
+address_comment {
+    instruction_index: 108
+    string_table_index: 45
+}
+address_comment {
+    instruction_index: 110
+    string_table_index: 46
+}
+address_comment {
+    instruction_index: 114
+    string_table_index: 47
+}
+address_comment {
+    instruction_index: 116
+    string_table_index: 48
+}
+address_comment {
+    instruction_index: 117
+    string_table_index: 48
+}
+address_comment {
+    instruction_index: 120
+    string_table_index: 49
+}
+address_comment {
+    instruction_index: 122
+    string_table_index: 26
+}
+address_comment {
+    instruction_index: 129
+    string_table_index: 50
+}
+address_comment {
+    instruction_index: 132
+    string_table_index: 42
+}
+address_comment {
+    instruction_index: 133
+    string_table_index: 43
+}
+address_comment {
+    instruction_index: 134
+    string_table_index: 44
+}
+address_comment {
+    instruction_index: 137
+    string_table_index: 42
+}
+address_comment {
+    instruction_index: 138
+    string_table_index: 43
+}
+address_comment {
+    instruction_index: 139
+    string_table_index: 44
+}
+address_comment {
+    instruction_index: 141
+    string_table_index: 51
+}
+address_comment {
+    instruction_index: 144
+    string_table_index: 42
+}
+address_comment {
+    instruction_index: 145
+    string_table_index: 43
+}
+address_comment {
+    instruction_index: 146
+    string_table_index: 44
+}
+address_comment {
+    instruction_index: 149
+    string_table_index: 42
+}
+address_comment {
+    instruction_index: 150
+    string_table_index: 43
+}
+address_comment {
+    instruction_index: 151
+    string_table_index: 44
+}
+address_comment {
+    instruction_index: 169
+    string_table_index: 25
+}
+address_comment {
+    instruction_index: 203
+    string_table_index: 23
+}
+address_comment {
+    instruction_index: 204
+    string_table_index: 52
+}
+address_comment {
+    instruction_index: 208
+    string_table_index: 53
+}
+address_comment {
+    instruction_index: 211
+    string_table_index: 53
+}
+address_comment {
+    instruction_index: 222
+    string_table_index: 54
+}
+address_comment {
+    instruction_index: 222
+    string_table_index: 55
+}
+section {
+    address: 4195552
+    size: 24
+    flag_r: true
+    flag_w: false
+    flag_x: true
+}
+section {
+    address: 4195584
+    size: 0
+    flag_r: false
+    flag_w: false
+    flag_x: false
+}
+section {
+    address: 4195712
+    size: 824
+    flag_r: true
+    flag_w: false
+    flag_x: true
+}
+section {
+    address: 4196536
+    size: 14
+    flag_r: true
+    flag_w: false
+    flag_x: true
+}
+section {
+    address: 4196552
+    size: 99
+    flag_r: true
+    flag_w: false
+    flag_x: false
+}
+section {
+    address: 4196652
+    size: 68
+    flag_r: true
+    flag_w: false
+    flag_x: false
+}
+section {
+    address: 4196720
+    size: 260
+    flag_r: true
+    flag_w: false
+    flag_x: false
+}
+section {
+    address: 6295080
+    size: 16
+    flag_r: true
+    flag_w: true
+    flag_x: false
+}
+section {
+    address: 6295096
+    size: 16
+    flag_r: true
+    flag_w: true
+    flag_x: false
+}
+section {
+    address: 6295112
+    size: 8
+    flag_r: true
+    flag_w: true
+    flag_x: false
+}
+section {
+    address: 6295520
+    size: 8
+    flag_r: true
+    flag_w: true
+    flag_x: false
+}
+section {
+    address: 6295528
+    size: 0
+    flag_r: false
+    flag_w: false
+    flag_x: false
+}
+section {
+    address: 6295608
+    size: 24
+    flag_r: true
+    flag_w: true
+    flag_x: false
+}
+section {
+    address: 6295632
+    size: 0
+    flag_r: false
+    flag_w: false
+    flag_x: false
+}
+section {
+    address: 6295648
+    size: 64
+    flag_r: false
+    flag_w: false
+    flag_x: false
+}
+section {
+    address: 6295976
+    size: 12
+    flag_r: false
+    flag_w: false
+    flag_x: false
+}
+data_reference {
+    instruction_index: 20
+    address: 4196464
+}
+data_reference {
+    instruction_index: 21
+    address: 4196320
+}
+data_reference {
+    instruction_index: 22
+    address: 4196125
+}
+data_reference {
+    instruction_index: 26
+    address: 6295520
+}
+data_reference {
+    instruction_index: 38
+    address: 6295104
+}
+data_reference {
+    instruction_index: 40
+    address: 6295096
+}
+data_reference {
+    instruction_index: 57
+    address: 6295112
+}
+data_reference {
+    instruction_index: 65
+    address: 6295112
+}
+data_reference {
+    instruction_index: 75
+    address: 6295624
+}
+data_reference {
+    instruction_index: 208
+    address: 6295080
+}
+data_reference {
+    instruction_index: 211
+    address: 6295080
+}
+
+
+Process finished with exit code 0
